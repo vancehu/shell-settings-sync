@@ -24,13 +24,13 @@ fi
 echo $NOW > ~/.devEnvLastUpdate
 
 #Scripts
-source ./settings-sync/local/init.sh
-source ./settings-sync/devEnvSetup.sh
-source ./settings-sync/local/afterDevEnvSetup.sh
-source ./settings-sync/helpers.sh
-source ./settings-sync/local/afterHelpers.sh
-source ./settings-sync/zshSetup.sh
-source ./settings-sync/local/afterZshSetup.sh
+source ~/.settings-sync/local/init.sh
+source ~/.settings-sync/devEnvSetup.sh
+source ~/.settings-sync/local/afterDevEnvSetup.sh
+source ~/.settings-sync/helpers.sh
+source ~/.settings-sync/local/afterHelpers.sh
+source ~/.settings-sync/zshSetup.sh
+source ~/.settings-sync/local/afterZshSetup.sh
 
 # #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 # export SDKMAN_DIR="/Users/vance.hu/.sdkman"
