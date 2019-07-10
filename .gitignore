@@ -1,1 +1,1 @@
-settings-sync/local/*
+.settings-sync/**/*.local.sh
