@@ -20,3 +20,7 @@ P9K_GITSTATUS_DIR=~/.oh-my-zsh/gitstatus/
 source $ZSH/oh-my-zsh.sh
 
 __lazyload_wrapper_$(cat ~/.settings-sync-data/last-lazyload)
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/vancehu/.sdkman"
+[[ -s "/home/vancehu/.sdkman/bin/sdkman-init.sh" ]] && source "/home/vancehu/.sdkman/bin/sdkman-init.sh"

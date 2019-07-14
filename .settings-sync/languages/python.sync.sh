@@ -10,7 +10,7 @@ function __lazyload_python() {
         __log_green 'Activating Python 3.7.4. Enter `pyenv global system` to use system default python.'
         __log_green 'Enter `py_playground` to use the default sandbox virtualenv `playground`'.
         pyenv global 3.7.4
-        if [[ ! -d ~/.settings-sync-data/venv/playground ]]; then virtualenv ~/.settings-sync-data/venv/playground --python=python3.7.4; fi
+        if [[ ! -d ~/.settings-sync-data/venv/playground ]]; then virtualenv ~/.settings-sync-data/venv/playground; fi
         alias py_playground="source ~/.settings-sync-data/venv/playground/bin/activate"
     fi
     P9K_LEFT_PROMPT_ELEMENTS+=(custom_python_version)
