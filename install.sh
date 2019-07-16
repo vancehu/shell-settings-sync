@@ -29,6 +29,7 @@ function __setup_sync() {
 __setup_sync .zshrc
 __setup_sync .vimrc
 __setup_sync .settings-sync
+__setup_sync .iterm-conf-sync
 
 if [ -d ~/.oh-my-zsh ]; then
     __log_green "oh-my-zsh already installed"
